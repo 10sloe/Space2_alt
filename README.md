@@ -1,4 +1,4 @@
-# Space1
+# Space2
 
 10. Klasse
 
@@ -6,8 +6,4 @@
 * Interaktion
 * Vererbung
 
-Dies ist die Ausgangsversion des Projekts Spaceinvaders.
-Das Spiel lässt sich mit Klick auf einen Button starten. Mit den Pfeiltasten kann man das Schiff steuern. Mit Space wird eine Kugel abgefeuert. Eine Reihe bewegt sich auf dem Bildschirm hin und her.
-
-Es ist noch einiges zu tun:
-Kollsionskontrolle, ...
+Es gibt einige Gemeinsamkeiten unter den Klassen Alien, Schiff und Kugel. Diese wurden in der Klasse Spielobjekt ausgelagert.
