@@ -24,6 +24,7 @@ public class Alien extends Spielobjekt
     //Methoden
     public void update()
     {
+        super.update();   // Ganz normal bewegen, wie jede Spielobjekt
         zaehler++;
         if (zaehler > 300) // Nach 300 Einheiten
         {
@@ -31,7 +32,6 @@ public class Alien extends Spielobjekt
             vx = -vx;      // ändert das Alien die Richtung
             y = y + 10;    // und fliegt ein bisschen tiefer
         }
-        x = x + vx;
     }
 
     void zeichnen(GraphicsContext gc)

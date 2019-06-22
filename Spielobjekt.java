@@ -44,6 +44,11 @@ public class Spielobjekt
         y = y_;
     }
 
+    void setVy(double vy_)
+    {
+        vy = vy_;
+    }
+
     public void update()
     {
         x = x + vx;

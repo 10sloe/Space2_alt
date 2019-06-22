@@ -16,12 +16,6 @@ public class Kugel extends Spielobjekt
         farbe = Color.YELLOW;
     }
 
-
-    void setVy(double vy_)
-    {
-        vy = vy_;
-    }
-
     void sichtbarMachen()
     {
         sichtbar = true;
